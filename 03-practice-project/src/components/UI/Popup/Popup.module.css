@@ -1,0 +1,59 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.418);
+  z-index: 900;
+}
+
+.infobox {
+  position: fixed;
+  top: 30vh;
+  left: 10%;
+  width: 80%;
+  z-index: 1000;
+  overflow: hidden;
+  background-color: white;
+  height: 15rem;
+  max-width: 90%;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.header {
+  padding: 1rem;
+  background: #64008b;
+  color: white;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.header h2 {
+  margin: 0;
+}
+
+.message {
+  margin: 0 1rem auto 1rem;
+  font-weight: bold;
+}
+
+.actions {
+  margin: 0.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+    margin: 0 .5rem;
+}
+
+@media (min-width: 768px) {
+  .infobox {
+    left: calc(50% - 20rem);
+    width: 40rem;
+  }
+}

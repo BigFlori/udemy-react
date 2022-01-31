@@ -1,0 +1,23 @@
+.controls {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.controls label {
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.controls input {
+  height: 2rem;
+}
+
+.controls.invalid label {
+    color: red;
+}
+
+.controls.invalid input {
+    border-color: red;
+    background-color: salmon;
+}
