@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.container label {
+  margin-bottom: 0.5rem;
+}
+
+.container input {
+  height: 2rem;
+  padding: 0 0.5rem;
+  border: 1px solid black;
+  border-radius: 10px;
+}

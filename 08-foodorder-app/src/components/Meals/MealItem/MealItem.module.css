@@ -1,0 +1,32 @@
+.meal__item {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.meal__data {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 0.25rem;
+}
+
+.meal__data p {
+    font-style: italic;
+}
+
+.meal__data h4 {
+    color: #9b4c10;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+}
+
+.meal__inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    row-gap: 0.5rem;
+}

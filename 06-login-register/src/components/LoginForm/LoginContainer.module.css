@@ -1,0 +1,27 @@
+.container {
+  background-color: white;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 5px;
+  max-width: 500px;
+}
+
+p {
+  font-size: 0.7rem;
+}
+
+h3 {
+  text-align: center;
+}
+
+span {
+  color: rgb(0, 140, 255);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media (min-width: 500px) {
+  .container {
+    margin: 1rem auto;
+  }
+}
